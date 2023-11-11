@@ -2,5 +2,5 @@ node_modules/
 *.lsf
 *.loca
 
-# imgs/
-# test/
+imgs/
+test/
