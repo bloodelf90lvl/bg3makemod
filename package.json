@@ -1,0 +1,19 @@
+{
+    "name": "female_half_plate",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "build": "node ./scripts/build.js",
+        "deploy": "node ./scripts/deploy.js",
+        "gen-uuid": "node ./scripts/gen-uuid.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "uuid": "^9.0.1"
+    }
+}
