@@ -28,7 +28,7 @@ const convertResource = async(srcFile, destFile) => {
     try {
         console.log(`convert resource ${srcFile} -> ${destFile}`);
 
-        const cmd = `${config.divineExe} -s ${srcFile} -d ${destFile} -g bg3 -a convert-resource`;
+        const cmd = `${config.divineExe} ${config.useLegacyGuids ? '--legacy-guids' : ''} -s ${srcFile} -d ${destFile} -g bg3 -a convert-resource`;
 
         debug && console.debug(cmd);
 
