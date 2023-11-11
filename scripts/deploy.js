@@ -26,7 +26,7 @@ const createPackage = async(src, dest) => {
 }
 
 const deploy = async() => {
-    const finalPackage = path.join(config.paths.test, `${config.modName}.pak`);
+    const finalPackage = path.join(config.paths.game.modsPath, `${config.modName}.pak`);
 
     console.log(`creating package ${finalPackage} from ${config.paths.src}`);
 
