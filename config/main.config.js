@@ -18,7 +18,6 @@ const config = {
         }
     },
     divineExe: path.normalize(process.env.DIVINE_EXE || 'P:\\Modding\\baldurgate\\tools\\ExportTool-v1.18.7\\Tools\\divine.exe'),
-    useLegacyGuids: true, // old version of the game
     debug: false,
     cleanBeforeBuild: true,
     rootPath,

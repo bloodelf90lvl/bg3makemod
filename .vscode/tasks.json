@@ -10,6 +10,13 @@
 		},
 		{
 			"type": "npm",
+			"script": "build-legacy",
+			"problemMatcher": [],
+			"label": "npm: build-legacy",
+			"detail": "node scripts/build.js"
+		},
+		{
+			"type": "npm",
 			"script": "gen-uuid",
 			"problemMatcher": [],
 			"label": "npm: gen-uuid",

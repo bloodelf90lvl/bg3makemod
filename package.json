@@ -7,6 +7,7 @@
         "test": "test"
     },
     "scripts": {
+        "build-legacy": "node ./scripts/build.js --legacy",
         "build": "node ./scripts/build.js",
         "deploy": "node ./scripts/deploy.js",
         "gen-uuid": "node ./scripts/gen-uuid.js"

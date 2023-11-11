@@ -8,6 +8,8 @@ const { debug } = config;
 
 const execPromise = util.promisify(exec);
 
+const useLegacy = process.argv.some((_arg) => _arg === '--legacy');
+
 const convertLoca = async(srcFile, destFile) => {
     try {
         console.log(`convert loca ${srcFile} -> ${destFile}`);
@@ -28,7 +30,7 @@ const convertResource = async(srcFile, destFile) => {
     try {
         console.log(`convert resource ${srcFile} -> ${destFile}`);
 
-        const cmd = `${config.divineExe} ${config.useLegacyGuids ? '--legacy-guids' : ''} -s ${srcFile} -d ${destFile} -g bg3 -a convert-resource`;
+        const cmd = `${config.divineExe} ${useLegacy ? '--legacy-guids' : ''} -s ${srcFile} -d ${destFile} -g bg3 -a convert-resource`;
 
         debug && console.debug(cmd);
 
@@ -99,6 +101,7 @@ const buildRootTemplates = async() => {
 };
 
 const main = async() => {
+    useLegacy && console.warn('\x1b[33m !!!RUNNING IN LEGACY MODE!!! \x1b[0m')
     console.log('start building mod files');
 
     await buildLocalization();
