@@ -13,7 +13,7 @@ const createPackage = async(src, dest) => {
     try {
         console.log(`create package ${src} -> ${dest}`);
 
-        const cmd = `${config.divineExe} -s ${src} -d ${dest} -g bg3 -a create-package`;
+        const cmd = `${config.divineExe} -s "${src}" -d "${dest}" -g bg3 -a create-package`;
 
         debug && console.debug(cmd);
 
