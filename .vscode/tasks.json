@@ -10,6 +10,13 @@
 		},
 		{
 			"type": "npm",
+			"script": "deploy",
+			"problemMatcher": [],
+			"label": "npm: deploy",
+			"detail": "node scripts/deploy.js"
+		},
+		{
+			"type": "npm",
 			"script": "build-legacy",
 			"problemMatcher": [],
 			"label": "npm: build-legacy",

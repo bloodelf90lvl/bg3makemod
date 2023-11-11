@@ -8,6 +8,9 @@ const config = {
     modName,
     localizations: ['English', 'Russian'],
     paths: {
+        src: path.join(rootPath, 'src'),
+        test: path.join(rootPath, 'test'),
+
         mod: {
             loca: path.join(rootPath, './src/Localization'),
             rootTemplate: path.join(rootPath, `./src/Public/${modName}/RootTemplates`),
