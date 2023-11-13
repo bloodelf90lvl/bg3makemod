@@ -10,7 +10,8 @@
         "build-legacy": "node ./scripts/build.js --legacy",
         "build": "node ./scripts/build.js",
         "deploy": "node ./scripts/deploy.js",
-        "gen-uuid": "node ./scripts/gen-uuid.js"
+        "gen-uuid": "node ./scripts/gen-uuid.js",
+        "build_and_deploy": "npm run build-legacy && npm run deploy"
     },
     "author": "",
     "license": "ISC",

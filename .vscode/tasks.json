@@ -28,6 +28,13 @@
 			"problemMatcher": [],
 			"label": "npm: gen-uuid",
 			"detail": "node scripts/gen-uuid.js"
+		},
+		{
+			"type": "npm",
+			"script": "build_and_deploy",
+			"problemMatcher": [],
+			"label": "npm: build_and_deploy",
+			"detail": "node scripts/build.js && node scripts/deploy.js"
 		}
 	]
 }
