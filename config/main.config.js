@@ -2,7 +2,7 @@ const path = require('path');
 
 const rootPath = path.normalize(path.join(__dirname, '..'));
 
-const modName = 'EAFemaleHalfPlate'; // change for each mod.
+const modName = 'SpiderQueenRobe'; // change for each mod.
 
 const config = {
     modName,
