@@ -49,3 +49,11 @@ Make a new mod:
 - default resistance check
 - spiders infusions Projectile_SpiderInfestation
 - use this to make eggs Target_FOR_SpiderQueen_HatchEggs
+
+
+use icons:
+statIcons_CrawlingGnawInfection
+statIcons_SpiderQueensWrath
+
+
+data "HitCosts" "SuperiorityDie:1"

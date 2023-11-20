@@ -314,6 +314,7 @@
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="ParentTemplateId" type="FixedString" value="6047fffd-f7d3-4956-8b7a-ef82c08f8867" />
 					<attribute id="Icon" type="FixedString" value="bb6176cf-33cb-c60d-531c-57744789c198-_(Icon_Spider_Queen)" />
+					<attribute id="Stats" type="FixedString" value="Wildshape_Spider_Phase_Queen" />
 					<attribute id="CharacterVisualResourceID" type="FixedString" value="bb6176cf-33cb-c60d-531c-57744789c198" />
 					<children>
 						<node id="Tags">

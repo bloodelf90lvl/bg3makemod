@@ -12,4 +12,12 @@
 	<content contentuid="hd1a61477g6edcg4d21g95e2ge7f6b8af07ed" version="1">Нейротоксин паучьей королевы</content>
 	<content contentuid="h2a053e32gf870g479bgac16g167699c81dc7" version="1">Ужальте &lt;LSTag Type="Status" Tooltip="RESTRAINED"&gt;обездвиженную&lt;/LSTag&gt; цель чтобы &lt;LSTag Type="Status" Tooltip="PARALYZED"&gt;парализовать&lt;/LSTag&gt; её.</content>
 	<content contentuid="hd674722eg145fg427cg83fbg6d43a00682e7" version="1">Ужальте &lt;LSTag Type="Status" Tooltip="RESTRAINED"&gt;обездвиженную&lt;/LSTag&gt; цель и нанесите [1] а также введите &lt;LSTag Type="Status" Tooltip="POISON_SPIDER_QUEEN_CONDITION"&gt;нейротоксин паучьей королевы&lt;/LSTag&gt; чтобы &lt;LSTag Type="Status" Tooltip="PARALYZED"&gt;парализовать&lt;/LSTag&gt; нервную систему цели на [2] ход(ов).</content>
+
+	<!-- feed&hunger feature -->
+	<content contentuid="hd3c6dd6eg1e91g4defg82a2gfb8d4ac1d394" version="1">Ненасытная жажда</content>
+	<content contentuid="hebdf181age464g4c30gbf12g7fe4c9317970" version="1">Вами преобладает невыносимый голод. У вас штраф -[1] к &lt;LSTag Tooltip="AttackRoll"&gt;броскам атаки&lt;/LSTag&gt;, однако, вы получаете бонус +[2] к броскам инициативы.</content>
+
+	<content contentuid="h8efba5bdgaf75g4f88ga9f0g771fbdc60c2a" version="1">Истощение</content>
+	<content contentuid="h2ac64298g09ecg42e1g95e5gee9e1ea024e5" version="1">Существо истощено и получает &lt;LSTag Tooltip="Disadvantage"&gt;помеху&lt;/LSTag&gt; при &lt;LSTag Tooltip="AttackRoll"&gt;бросках атаки&lt;/LSTag&gt;, &lt;LSTag Tooltip="SavingThrow"&gt;испытаниях&lt;/LSTag&gt; и большинству &lt;LSTag Tooltip="AbilityCheck"&gt;проверок навыков&lt;/LSTag&gt;.</content>
+
 </contentList>

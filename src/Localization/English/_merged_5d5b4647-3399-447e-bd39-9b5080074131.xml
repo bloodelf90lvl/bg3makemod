@@ -4,13 +4,20 @@
 	<content contentuid="hc0f03e06g0d45g498dga471gccf0443ebbef" version="1">test</content>
 
 	<!-- robe -->
-	<content contentuid="h9a9ef78egcec1g4cb5g9ff3gdeed7421b457" version="1">Llos Gift: Spider's Queen Shape</content>
-	<content contentuid="h7cdd9300gbb63g47d0ga687g6632fc977baf" version="1">Llos Gift Desc</content>
+	<content contentuid="h9a9ef78egcec1g4cb5g9ff3gdeed7421b457" version="1">Lolth Gift: Spider's Queen Shape</content>
+	<content contentuid="h7cdd9300gbb63g47d0ga687g6632fc977baf" version="1">Lolth Gift Desc</content>
 
 	<!-- poison strike -->
 	<content contentuid="h394ccb95g376bg4061gaeccgd077f6932f2d" version="1">Neurovenom</content>
 	<content contentuid="hd1a61477g6edcg4d21g95e2ge7f6b8af07ed" version="1">Spider Queen's Neurotoxin</content>
 	<content contentuid="h2a053e32gf870g479bgac16g167699c81dc7" version="1">Strike &lt;LSTag Type="Status" Tooltip="RESTRAINED"&gt;Restrained&lt;/LSTag&gt; target to &lt;LSTag Type="Status" Tooltip="PARALYZED"&gt;Paralyse&lt;/LSTag&gt; it.</content>
 	<content contentuid="hd674722eg145fg427cg83fbg6d43a00682e7" version="1">Strike &lt;LSTag Type="Status" Tooltip="RESTRAINED"&gt;Restrained&lt;/LSTag&gt; target and deal [1] and inject &lt;LSTag Type="Status" Tooltip="POISON_SPIDER_QUEEN_CONDITION"&gt;Spider Queen's Neurotoxin&lt;/LSTag&gt; to &lt;LSTag Type="Status" Tooltip="PARALYZED"&gt;Paralyse&lt;/LSTag&gt; target's nervous system on [2] round(s).</content>
+
+	<!-- feed&hunger feature -->
+	<content contentuid="hd3c6dd6eg1e91g4defg82a2gfb8d4ac1d394" version="1">Insatiable Thirst</content>
+	<content contentuid="hebdf181age464g4c30gbf12g7fe4c9317970" version="1">You are overwhelmed by unbearable hunger. -[1] to &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;, but you gain a +[2] bonus to Initiative Rolls.</content>
+
+	<content contentuid="h8efba5bdgaf75g4f88ga9f0g771fbdc60c2a" version="1">Exhaustion</content>
+	<content contentuid="h2ac64298g09ecg42e1g95e5gee9e1ea024e5" version="1">Entity is exchausted and has &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;, &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;, and most &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt;.</content>
 
 </contentList>
