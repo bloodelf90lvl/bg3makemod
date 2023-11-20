@@ -325,6 +325,38 @@
 						</node>
 						<node id="SkillList">
 							<children>
+								<!-- Target_NeuroVenomStrike_PhaseSpider_Queen / Neurovenom Strike -->
+								<node id="Skill">
+									<attribute id="Skill" type="FixedString" value="Target_NeuroVenomStrike_PhaseSpider_Queen" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="CasualExplorer" type="bool" value="True" />
+									<attribute id="Classic" type="bool" value="True" />
+									<attribute id="TacticianHardcore" type="bool" value="True" />
+									<attribute id="HonorHardcore" type="bool" value="True" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
 								<!-- Target_Bite_PhaseSpider_Queen / Main Attack -->
 								<node id="Skill">
 									<attribute id="Skill" type="FixedString" value="Target_Bite_PhaseSpider_Queen" />
@@ -385,6 +417,38 @@
 										</node>
 									</children>
 								</node>
+								<!-- Target_FeedStrike_PhaseSpider_Queen / Feed -->
+								<node id="Skill">
+									<attribute id="Skill" type="FixedString" value="Target_FeedStrike_PhaseSpider_Queen" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="CasualExplorer" type="bool" value="True" />
+									<attribute id="Classic" type="bool" value="True" />
+									<attribute id="TacticianHardcore" type="bool" value="True" />
+									<attribute id="HonorHardcore" type="bool" value="True" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
 								<!-- Target_EtherealJaunt_Queen / Misty Step -->
 								<node id="Skill">
 									<attribute id="Skill" type="FixedString" value="Target_EtherealJaunt_Queen" />
@@ -417,7 +481,7 @@
 										</node>
 									</children>
 								</node>
-								<!-- Projectile_Jump_Spider_Queen -->
+								<!-- Projectile_Jump_Spider_Queen / Jump -->
 								<node id="Skill">
 									<attribute id="Skill" type="FixedString" value="Projectile_Jump_Spider_Queen" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
@@ -445,7 +509,35 @@
 										</node>
 									</children>
 								</node>
-								<!-- Target_Web_Spider_Queen -->
+								<!-- Shout_Hide / Hide -->
+								<node id="Skill">
+									<attribute id="Skill" type="FixedString" value="Shout_Hide" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="True" />
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+								<!-- Target_Web_Spider_Queen / Web -->
 								<node id="Skill">
 									<attribute id="Skill" type="FixedString" value="Target_Web_Spider_Queen" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
@@ -505,61 +597,35 @@
 										</node>
 									</children>
 								</node>
-								<!-- Shout_SpiderQueen_Wildshape_Smash -->
-								<node id="Skill">
-									<attribute id="Skill" type="FixedString" value="Shout_SpiderQueen_Wildshape_Smash" />
-									<attribute id="SpellCastingAbility" type="uint8" value="0" />
-									<attribute id="LearningStrategy" type="uint8" value="0" />
-									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="StartRound" type="int32" value="0" />
-									<attribute id="FallbackStartRound" type="int32" value="-1" />
-									<attribute id="MinimumImpact" type="int32" value="0" />
-									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
-									<attribute id="AIFlags" type="uint16" value="0" />
-									<children>
-										<node id="SourceConditions">
-											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
-											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
-											<children>
-												<node id="Tags" />
-											</children>
-										</node>
-										<node id="TargetConditions">
-											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
-											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
-											<children>
-												<node id="Tags" />
-											</children>
-										</node>
-									</children>
-								</node>
-								<node id="Skill">
-									<attribute id="Skill" type="FixedString" value="Projectile_Jump_Owlbear_Wildshape_Lunge" />
-									<attribute id="SpellCastingAbility" type="uint8" value="0" />
-									<attribute id="LearningStrategy" type="uint8" value="0" />
-									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="StartRound" type="int32" value="0" />
-									<attribute id="FallbackStartRound" type="int32" value="-1" />
-									<attribute id="MinimumImpact" type="int32" value="0" />
-									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
-									<attribute id="AIFlags" type="uint16" value="0" />
-									<children>
-										<node id="SourceConditions">
-											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
-											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
-											<children>
-												<node id="Tags" />
-											</children>
-										</node>
-										<node id="TargetConditions">
-											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
-											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
-											<children>
-												<node id="Tags" />
-											</children>
-										</node>
-									</children>
-								</node>
+								<!-- Projectile_Jump_SpiderQueen_Wildshape_Lunge / DMG Jump -->
+								<!-- <node id="Skill"> -->
+									<!-- <attribute id="Skill" type="FixedString" value="Projectile_Jump_Owlbear_Wildshape_Lunge" /> -->
+									<!-- <attribute id="SpellCastingAbility" type="uint8" value="0" /> -->
+									<!-- <attribute id="LearningStrategy" type="uint8" value="0" /> -->
+									<!-- <attribute id="ScoreModifier" type="float" value="1" /> -->
+									<!-- <attribute id="StartRound" type="int32" value="0" /> -->
+									<!-- <attribute id="FallbackStartRound" type="int32" value="-1" /> -->
+									<!-- <attribute id="MinimumImpact" type="int32" value="0" /> -->
+									<!-- <attribute id="OnlyCastOnSelf" type="bool" value="False" /> -->
+									<!-- <attribute id="AIFlags" type="uint16" value="0" /> -->
+									<!-- <children> -->
+										<!-- <node id="SourceConditions"> -->
+											<!-- <attribute id="MinimumHealthPercentage" type="int32" value="0" /> -->
+											<!-- <attribute id="MaximumHealthPercentage" type="int32" value="100" /> -->
+											<!-- <children> -->
+												<!-- <node id="Tags" /> -->
+											<!-- </children> -->
+										<!-- </node> -->
+										<!-- <node id="TargetConditions"> -->
+											<!-- <attribute id="MinimumHealthPercentage" type="int32" value="0" /> -->
+											<!-- <attribute id="MaximumHealthPercentage" type="int32" value="100" /> -->
+											<!-- <children> -->
+												<!-- <node id="Tags" /> -->
+											<!-- </children> -->
+										<!-- </node> -->
+									<!-- </children> -->
+								<!-- </node> -->
+								<!-- Projectile_SpiderInfestation / Zarajenie -->
 								<!-- <node id="Skill"> -->
 									<!-- <attribute id="Skill" type="FixedString" value="Projectile_SpiderInfestation" /> -->
 									<!-- <attribute id="SpellCastingAbility" type="uint8" value="0" /> -->
@@ -587,7 +653,7 @@
 										<!-- </node> -->
 									<!-- </children> -->
 								<!-- </node> -->
-								<!-- Target_FOR_SpiderQueen_HatchEggs / взорвать яйца -->
+								<!-- Target_FOR_SpiderQueen_HatchEggs / Eggs Stuff -->
 							</children>
 						</node>
 						<node id="PickingPhysics">

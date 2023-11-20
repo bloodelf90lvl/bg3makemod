@@ -3,4 +3,13 @@
 	<!-- example -->
 	<content contentuid="hc0f03e06g0d45g498dga471gccf0443ebbef" version="1">test</content>
 
+	<!-- robe -->
+	<content contentuid="h9a9ef78egcec1g4cb5g9ff3gdeed7421b457" version="1">Дар Ллос: Облик Фазовой Королевы Пауков</content>
+	<content contentuid="h7cdd9300gbb63g47d0ga687g6632fc977baf" version="1">zzz</content>
+
+	<!-- poison strike -->
+	<content contentuid="h394ccb95g376bg4061gaeccgd077f6932f2d" version="1">Нейропленение</content>
+	<content contentuid="hd1a61477g6edcg4d21g95e2ge7f6b8af07ed" version="1">Нейротоксин паучьей королевы</content>
+	<content contentuid="h2a053e32gf870g479bgac16g167699c81dc7" version="1">Ужальте &lt;LSTag Type="Status" Tooltip="RESTRAINED"&gt;обездвиженную&lt;/LSTag&gt; цель чтобы &lt;LSTag Type="Status" Tooltip="PARALYZED"&gt;парализовать&lt;/LSTag&gt; её.</content>
+	<content contentuid="hd674722eg145fg427cg83fbg6d43a00682e7" version="1">Ужальте &lt;LSTag Type="Status" Tooltip="RESTRAINED"&gt;обездвиженную&lt;/LSTag&gt; цель и нанесите [1] а также введите &lt;LSTag Type="Status" Tooltip="POISON_SPIDER_QUEEN_CONDITION"&gt;нейротоксин паучьей королевы&lt;/LSTag&gt; чтобы &lt;LSTag Type="Status" Tooltip="PARALYZED"&gt;парализовать&lt;/LSTag&gt; нервную систему цели на [2] ход(ов).</content>
 </contentList>

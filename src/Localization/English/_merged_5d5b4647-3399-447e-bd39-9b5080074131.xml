@@ -3,4 +3,14 @@
 	<!-- example -->
 	<content contentuid="hc0f03e06g0d45g498dga471gccf0443ebbef" version="1">test</content>
 
+	<!-- robe -->
+	<content contentuid="h9a9ef78egcec1g4cb5g9ff3gdeed7421b457" version="1">Llos Gift: Spider's Queen Shape</content>
+	<content contentuid="h7cdd9300gbb63g47d0ga687g6632fc977baf" version="1">Llos Gift Desc</content>
+
+	<!-- poison strike -->
+	<content contentuid="h394ccb95g376bg4061gaeccgd077f6932f2d" version="1">Neurovenom</content>
+	<content contentuid="hd1a61477g6edcg4d21g95e2ge7f6b8af07ed" version="1">Spider Queen's Neurotoxin</content>
+	<content contentuid="h2a053e32gf870g479bgac16g167699c81dc7" version="1">Strike &lt;LSTag Type="Status" Tooltip="RESTRAINED"&gt;Restrained&lt;/LSTag&gt; target to &lt;LSTag Type="Status" Tooltip="PARALYZED"&gt;Paralyse&lt;/LSTag&gt; it.</content>
+	<content contentuid="hd674722eg145fg427cg83fbg6d43a00682e7" version="1">Strike &lt;LSTag Type="Status" Tooltip="RESTRAINED"&gt;Restrained&lt;/LSTag&gt; target and deal [1] and inject &lt;LSTag Type="Status" Tooltip="POISON_SPIDER_QUEEN_CONDITION"&gt;Spider Queen's Neurotoxin&lt;/LSTag&gt; to &lt;LSTag Type="Status" Tooltip="PARALYZED"&gt;Paralyse&lt;/LSTag&gt; target's nervous system on [2] round(s).</content>
+
 </contentList>
